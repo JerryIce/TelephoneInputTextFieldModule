@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JITelephoneInputTextField: bb912461faee8f9742c5c0813d5a9a6935d231a7
+  JITelephoneInputTextField: 5722430b29c52e406f16182ff3db1dffe4c0b5bb
 
 PODFILE CHECKSUM: 24c22614d26231af5080fb2b910aedbc0193a921
 
