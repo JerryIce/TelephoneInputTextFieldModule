@@ -1,0 +1,6 @@
+framework module JITelephoneInputTextField {
+  umbrella header "JITelephoneInputTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

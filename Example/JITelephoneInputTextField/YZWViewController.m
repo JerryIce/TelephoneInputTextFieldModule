@@ -7,17 +7,38 @@
 //
 
 #import "YZWViewController.h"
+#import "JITelephoneInputTextField.h"
 
-@interface YZWViewController ()
+@interface YZWViewController ()<UITextFieldDelegate>
 
 @end
 
 @implementation YZWViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
+    
+    JITelephoneInputTextField *telInputTextField = [[JITelephoneInputTextField alloc] initWithFrame:CGRectMake((CGRectGetWidth(self.view.frame) - 270)/2, 200, 270, 30)];
+    //    设置模式
+    telInputTextField.numShowMode = JITelephoneInputTextField_numShowMode_344;
+    telInputTextField.openFirstNumLimit = YES;
+    telInputTextField.firstNum = 1;
+    telInputTextField.delegate = self;
+    [self.view addSubview:telInputTextField];
+    
+}
+
+//MARK: - UITextFieldDelegate
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
+    
+    if([textField isKindOfClass:JITelephoneInputTextField.class]){
+        JITelephoneInputTextField *field = (JITelephoneInputTextField*)textField;
+        return [field telephoneTextFieldShouldChangeCharactersInRange:range withValueString:string];
+    }else{
+        return YES;
+    }
 }
 
 - (void)didReceiveMemoryWarning
