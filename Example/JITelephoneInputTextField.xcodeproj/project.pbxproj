@@ -20,6 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6722549D260C3D2D006C16A2 /* JITelephoneInputTextFieldDiagram.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6722549C260C3D2D006C16A2 /* JITelephoneInputTextFieldDiagram.gif */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		780CE90181E553A9A1E91082 /* Pods_JITelephoneInputTextField_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EE6ABFA9738209123A1AE9 /* Pods_JITelephoneInputTextField_Tests.framework */; };
 		7B7E4765FF56E533AD917861 /* Pods_JITelephoneInputTextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7B89C79B770D987DD99423 /* Pods_JITelephoneInputTextField_Example.framework */; };
@@ -59,6 +60,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6722549C260C3D2D006C16A2 /* JITelephoneInputTextFieldDiagram.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JITelephoneInputTextFieldDiagram.gif; sourceTree = "<group>"; };
 		6F30E6D910EE7ED400052B7E /* Pods-JITelephoneInputTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JITelephoneInputTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-JITelephoneInputTextField_Example/Pods-JITelephoneInputTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YZWViewController.h */,
 				6003F5A6195388D20070C39A /* YZWViewController.m */,
+				6722549C260C3D2D006C16A2 /* JITelephoneInputTextFieldDiagram.gif */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -284,6 +287,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				6722549D260C3D2D006C16A2 /* JITelephoneInputTextFieldDiagram.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
