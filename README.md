@@ -30,7 +30,7 @@ pod 'JITelephoneInputTextField'
 ***
 * 限位模式：最大13位 & 3-4-4间隔显示 & 首位限制为1
 
-![JITelephoneInputTextField功能示意图default](https://github.com/JerryIce/JITelephoneInputTextField/blob/master/other/JITelephoneInputTextFieldDiagram.gif)
+![JITelephoneInputTextField功能示意图default](https://github.com/JerryIce/TelephoneInputTextFieldModule/blob/main/Example/JITelephoneInputTextField/JITelephoneInputTextFieldDiagram.gif)
 
 ## 介绍说明：
 ***
