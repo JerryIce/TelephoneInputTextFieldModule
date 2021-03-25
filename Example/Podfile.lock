@@ -1,5 +1,5 @@
 PODS:
-  - JITelephoneInputTextField (1.0.1)
+  - JITelephoneInputTextField (1.0.2)
 
 DEPENDENCIES:
   - JITelephoneInputTextField (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JITelephoneInputTextField: 835fce37558aecf33f845707b3590e60d60f24b6
+  JITelephoneInputTextField: 5111fa8c54eae1d29d30a4620fcb0d7e3dc64876
 
 PODFILE CHECKSUM: 24c22614d26231af5080fb2b910aedbc0193a921
 

@@ -1,6 +1,6 @@
 {
   "name": "JITelephoneInputTextField",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "JITelephoneInputTextField 带验证功能的手机号输入框",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/JerryIce",
@@ -12,8 +12,8 @@
     "JerryIce": "jerryelectricity@me.com"
   },
   "source": {
-    "git": "https://github.com/JerryIce/JITelephoneInputTextField.git",
-    "tag": "1.0.1"
+    "git": "https://github.com/JerryIce/TelephoneInputTextFieldModule.git",
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"
