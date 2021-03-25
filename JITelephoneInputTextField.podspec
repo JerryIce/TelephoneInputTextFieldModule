@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JITelephoneInputTextField'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'JITelephoneInputTextField 带验证功能的手机号输入框'
 
 # This description is used to generate tags and improve search results.

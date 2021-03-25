@@ -7,29 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08C09819FE978F79468A83CC7ACC23FF /* JITelephoneInputTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB79BF49D958AAA0B708271B88D192F /* JITelephoneInputTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CD91D13C669FAE9414B7FF5125BC63E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		25D08CC483FC104509F200AA738EE7A6 /* JITelephoneInputTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E83F4905FEC550ED8A55FA74BC02D8F2 /* JITelephoneInputTextField-dummy.m */; };
 		361AA83B544F3BFD2002307E7674CFCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		433362432460A4C24E59ABFB0558A846 /* JITelephoneInputTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3A4F496ED91F9050B7042ADF7D5B7 /* JITelephoneInputTextField.m */; };
 		464C026F40717B45A24F213ADD35E163 /* Pods-JITelephoneInputTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7CCAF5E5FEAB705DF2EB484616110 /* Pods-JITelephoneInputTextField_Tests-dummy.m */; };
 		550EFB55F49A949024B60491ED063A82 /* Pods-JITelephoneInputTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F2A273B746DE62F9FA0E75853D080D /* Pods-JITelephoneInputTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C7582A1BB0C6C9CC673DEE3ED1D8634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7EC5F6D24C4EEF94CEEB3B340784107D /* JITelephoneInputTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E349C4D8558326C129C9F4192072FB70 /* JITelephoneInputTextField-dummy.m */; };
+		8F07BAC1781C494C239275B719B51D52 /* JITelephoneInputTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C12BCE78E8E2FB04A087C5755635E44 /* JITelephoneInputTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD8FB142AAE3838DE9E23ADA5A3E5452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		ADFDF63C45D5B869B13F2790795BD4C6 /* Pods-JITelephoneInputTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A83702FFFE231E38F231C697FB971C8 /* Pods-JITelephoneInputTextField_Example-dummy.m */; };
-		D018F523CD934A02FABA6EC4E26E2653 /* JITelephoneInputTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CBDD026F52A2E8CFA130F95A192BC /* JITelephoneInputTextField.m */; };
 		D071FDB0A90663BC7E4800C3E928CE2D /* Pods-JITelephoneInputTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F33971752B065A806C938D51C358F4 /* Pods-JITelephoneInputTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA5C8D1D765A34FAE0AAF70C4534721B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 82079F004C4C84C839EE43288FFCE79E /* ReplaceMe.m */; };
-		EF9B5278C25ECFAD574A0B10D5628B49 /* JITelephoneInputTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8BBEC23F833AA425E913DEC071A09DA /* JITelephoneInputTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC963B567A2605B29BF9BEECAFC52E62 /* JITelephoneInputTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 16EEE7F41CED8BB52146CDEB3D653562 /* JITelephoneInputTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		973E8F861EB8CDAE1427E63A9D66F419 /* PBXContainerItemProxy */ = {
+		238D30584CECF8F42C5A11CF3BC0AC3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 27A6EC2EAA26FBFC9838E87485BB1F79;
 			remoteInfo = JITelephoneInputTextField;
 		};
-		ED735A56C7E3E514C9A36B07C3E2BBAD /* PBXContainerItemProxy */ = {
+		62AB6EE9DC3E81999B355938E0892A55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,37 +39,36 @@
 
 /* Begin PBXFileReference section */
 		056D91FF1C217EDAE9FB3385BBE32C67 /* Pods-JITelephoneInputTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JITelephoneInputTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0E4B0A925D5F5E6A44D31D47CEACB0B0 /* JITelephoneInputTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JITelephoneInputTextField-Info.plist"; sourceTree = "<group>"; };
 		0EE3212E3393C6E1C08CBD406D2FD6AC /* Pods-JITelephoneInputTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JITelephoneInputTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		168FE0F87C815C5740A3584AADD9BFA5 /* JITelephoneInputTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JITelephoneInputTextField.release.xcconfig; sourceTree = "<group>"; };
+		12AA4A56498BC8FBDD20B48CF5FDFE0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		16EEE7F41CED8BB52146CDEB3D653562 /* JITelephoneInputTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JITelephoneInputTextField.h; path = JITelephoneInputTextField/Classes/JITelephoneInputTextField.h; sourceTree = "<group>"; };
 		16F2A273B746DE62F9FA0E75853D080D /* Pods-JITelephoneInputTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JITelephoneInputTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1E4EAA64CB14D5D7508C768CC9B7D171 /* JITelephoneInputTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JITelephoneInputTextField-prefix.pch"; sourceTree = "<group>"; };
 		2A83702FFFE231E38F231C697FB971C8 /* Pods-JITelephoneInputTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JITelephoneInputTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		2CD7505F443CE916D6BE9368AF58C35A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3AD491E65A557F82639522CCAC14D3FC /* JITelephoneInputTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JITelephoneInputTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38D19EFA16EBD01488554169B963830C /* JITelephoneInputTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JITelephoneInputTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40EB848E229EB4645F960C2B82D3DC01 /* Pods-JITelephoneInputTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JITelephoneInputTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4FE8BE72E7FCE9B2DFA58AECAE07ABB1 /* Pods-JITelephoneInputTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JITelephoneInputTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C12BCE78E8E2FB04A087C5755635E44 /* JITelephoneInputTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JITelephoneInputTextField-umbrella.h"; sourceTree = "<group>"; };
 		603D8E819211DA30F6B9D57AD8F9E959 /* JITelephoneInputTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JITelephoneInputTextField.framework; path = JITelephoneInputTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		604DF7CF0B217DC387FF2670CD781386 /* Pods-JITelephoneInputTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JITelephoneInputTextField_Tests.modulemap"; sourceTree = "<group>"; };
-		65F4AFD311BAE3260C85A54B8C98A61F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6BF3A4F496ED91F9050B7042ADF7D5B7 /* JITelephoneInputTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JITelephoneInputTextField.m; path = JITelephoneInputTextField/Classes/JITelephoneInputTextField.m; sourceTree = "<group>"; };
+		6DF3BCCCE88B74742B5E43AE88150B7C /* JITelephoneInputTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JITelephoneInputTextField.release.xcconfig; sourceTree = "<group>"; };
 		71A78122099C913E316910FE217DBAB1 /* Pods-JITelephoneInputTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JITelephoneInputTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74FC14E38CA4EAD1B9CF2B203E9C81AB /* JITelephoneInputTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JITelephoneInputTextField.debug.xcconfig; sourceTree = "<group>"; };
+		734FE9349679F96104AE8407D33F787C /* JITelephoneInputTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JITelephoneInputTextField.modulemap; sourceTree = "<group>"; };
 		788EDDA9FA73BFD973F340257F9DE5AE /* Pods-JITelephoneInputTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JITelephoneInputTextField_Tests-Info.plist"; sourceTree = "<group>"; };
-		7BC3817C7DB14B2932735D5837E0368F /* JITelephoneInputTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JITelephoneInputTextField.modulemap; sourceTree = "<group>"; };
-		82079F004C4C84C839EE43288FFCE79E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JITelephoneInputTextField/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7D2852DB957D22C4017CF9BC186AF9D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		867495EF830B754342EE484749C875BE /* Pods-JITelephoneInputTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JITelephoneInputTextField_Example.modulemap"; sourceTree = "<group>"; };
-		8FB79BF49D958AAA0B708271B88D192F /* JITelephoneInputTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JITelephoneInputTextField.h; path = JITelephoneInputTextField/Classes/JITelephoneInputTextField.h; sourceTree = "<group>"; };
 		9C43C0CEEE235AC7BD6F463A8B0C688D /* Pods-JITelephoneInputTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JITelephoneInputTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B27CBDD026F52A2E8CFA130F95A192BC /* JITelephoneInputTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JITelephoneInputTextField.m; path = JITelephoneInputTextField/Classes/JITelephoneInputTextField.m; sourceTree = "<group>"; };
+		BCEC5EA4A188F4D9967FD0AC013C032D /* JITelephoneInputTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JITelephoneInputTextField.debug.xcconfig; sourceTree = "<group>"; };
+		BF8AB7280AB94E440BA88504A63259DF /* JITelephoneInputTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JITelephoneInputTextField-prefix.pch"; sourceTree = "<group>"; };
+		C371ABC71A2957F3E61E100C69032BFC /* JITelephoneInputTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JITelephoneInputTextField-Info.plist"; sourceTree = "<group>"; };
 		CD20CA1606D9268039C8AD682E92471E /* Pods-JITelephoneInputTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JITelephoneInputTextField_Example-Info.plist"; sourceTree = "<group>"; };
 		D0F33971752B065A806C938D51C358F4 /* Pods-JITelephoneInputTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JITelephoneInputTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		DCD0EC0A9EFDFDA59FC3E3AAEF312A1C /* Pods_JITelephoneInputTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JITelephoneInputTextField_Example.framework; path = "Pods-JITelephoneInputTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07489D1AF9871B768DD6C7604B6D4C9 /* Pods-JITelephoneInputTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JITelephoneInputTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0F32FE18ED8B9214046FC0A2110B11E /* Pods-JITelephoneInputTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JITelephoneInputTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E349C4D8558326C129C9F4192072FB70 /* JITelephoneInputTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JITelephoneInputTextField-dummy.m"; sourceTree = "<group>"; };
-		E8BBEC23F833AA425E913DEC071A09DA /* JITelephoneInputTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JITelephoneInputTextField-umbrella.h"; sourceTree = "<group>"; };
+		E83F4905FEC550ED8A55FA74BC02D8F2 /* JITelephoneInputTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JITelephoneInputTextField-dummy.m"; sourceTree = "<group>"; };
 		E99D8465F3C5F5CC10E981F091327B89 /* Pods-JITelephoneInputTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JITelephoneInputTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EFD7CCAF5E5FEAB705DF2EB484616110 /* Pods-JITelephoneInputTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JITelephoneInputTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		F66E2D90E2980DE834AAB333522A8F66 /* Pods_JITelephoneInputTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JITelephoneInputTextField_Tests.framework; path = "Pods-JITelephoneInputTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,19 +83,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EA4371311723A028C27C6B3AD5A0251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8FB142AAE3838DE9E23ADA5A3E5452 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		782561F180FE26FA2107CF04142A86C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				361AA83B544F3BFD2002307E7674CFCC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D65FF6F49E00318D2CD7E9F801F460D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C7582A1BB0C6C9CC673DEE3ED1D8634 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,58 +119,27 @@
 			path = "Target Support Files/Pods-JITelephoneInputTextField_Example";
 			sourceTree = "<group>";
 		};
-		43DF66EE5C9D57A47837FE7BF612A523 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3AD491E65A557F82639522CCAC14D3FC /* JITelephoneInputTextField.podspec */,
-				65F4AFD311BAE3260C85A54B8C98A61F /* LICENSE */,
-				2CD7505F443CE916D6BE9368AF58C35A /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		48B756A575D3C31B1B4DB34C49903464 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4F0763578C591560BD59E231CDF09D8A /* JITelephoneInputTextField */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4F0763578C591560BD59E231CDF09D8A /* JITelephoneInputTextField */ = {
-			isa = PBXGroup;
-			children = (
-				8FB79BF49D958AAA0B708271B88D192F /* JITelephoneInputTextField.h */,
-				B27CBDD026F52A2E8CFA130F95A192BC /* JITelephoneInputTextField.m */,
-				82079F004C4C84C839EE43288FFCE79E /* ReplaceMe.m */,
-				43DF66EE5C9D57A47837FE7BF612A523 /* Pod */,
-				52DD2CEC85705ECFE08B34DD16F1AC6A /* Support Files */,
-			);
-			name = JITelephoneInputTextField;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		52DD2CEC85705ECFE08B34DD16F1AC6A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7BC3817C7DB14B2932735D5837E0368F /* JITelephoneInputTextField.modulemap */,
-				E349C4D8558326C129C9F4192072FB70 /* JITelephoneInputTextField-dummy.m */,
-				0E4B0A925D5F5E6A44D31D47CEACB0B0 /* JITelephoneInputTextField-Info.plist */,
-				1E4EAA64CB14D5D7508C768CC9B7D171 /* JITelephoneInputTextField-prefix.pch */,
-				E8BBEC23F833AA425E913DEC071A09DA /* JITelephoneInputTextField-umbrella.h */,
-				74FC14E38CA4EAD1B9CF2B203E9C81AB /* JITelephoneInputTextField.debug.xcconfig */,
-				168FE0F87C815C5740A3584AADD9BFA5 /* JITelephoneInputTextField.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JITelephoneInputTextField";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		870B522552FC5552F290B929DFF3AF85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				734FE9349679F96104AE8407D33F787C /* JITelephoneInputTextField.modulemap */,
+				E83F4905FEC550ED8A55FA74BC02D8F2 /* JITelephoneInputTextField-dummy.m */,
+				C371ABC71A2957F3E61E100C69032BFC /* JITelephoneInputTextField-Info.plist */,
+				BF8AB7280AB94E440BA88504A63259DF /* JITelephoneInputTextField-prefix.pch */,
+				5C12BCE78E8E2FB04A087C5755635E44 /* JITelephoneInputTextField-umbrella.h */,
+				BCEC5EA4A188F4D9967FD0AC013C032D /* JITelephoneInputTextField.debug.xcconfig */,
+				6DF3BCCCE88B74742B5E43AE88150B7C /* JITelephoneInputTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JITelephoneInputTextField";
 			sourceTree = "<group>";
 		};
 		93323A9A8F61683F7F3551BCBF9AEF5F /* Targets Support Files */ = {
@@ -210,11 +177,33 @@
 			path = "Target Support Files/Pods-JITelephoneInputTextField_Tests";
 			sourceTree = "<group>";
 		};
+		A5612A3C85A3821AD986DBC07629E0EF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				38D19EFA16EBD01488554169B963830C /* JITelephoneInputTextField.podspec */,
+				12AA4A56498BC8FBDD20B48CF5FDFE0F /* LICENSE */,
+				7D2852DB957D22C4017CF9BC186AF9D4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AA74E48026332C631BAFFECBA0156FDA /* JITelephoneInputTextField */ = {
+			isa = PBXGroup;
+			children = (
+				16EEE7F41CED8BB52146CDEB3D653562 /* JITelephoneInputTextField.h */,
+				6BF3A4F496ED91F9050B7042ADF7D5B7 /* JITelephoneInputTextField.m */,
+				A5612A3C85A3821AD986DBC07629E0EF /* Pod */,
+				870B522552FC5552F290B929DFF3AF85 /* Support Files */,
+			);
+			name = JITelephoneInputTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				48B756A575D3C31B1B4DB34C49903464 /* Development Pods */,
+				D3379CECA7C09C4F771417AAD66D8780 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9733583F60546611E246E05AF27A817E /* Products */,
 				93323A9A8F61683F7F3551BCBF9AEF5F /* Targets Support Files */,
@@ -229,6 +218,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D3379CECA7C09C4F771417AAD66D8780 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA74E48026332C631BAFFECBA0156FDA /* JITelephoneInputTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -240,12 +237,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58F68769791E8FA9A547D0BFD8E69747 /* Headers */ = {
+		93B2427B6759D401CE756FC2E88D0B42 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF9B5278C25ECFAD574A0B10D5628B49 /* JITelephoneInputTextField-umbrella.h in Headers */,
-				08C09819FE978F79468A83CC7ACC23FF /* JITelephoneInputTextField.h in Headers */,
+				8F07BAC1781C494C239275B719B51D52 /* JITelephoneInputTextField-umbrella.h in Headers */,
+				EC963B567A2605B29BF9BEECAFC52E62 /* JITelephoneInputTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D802530E631DBB9EA02AB4521C54822C /* PBXTargetDependency */,
+				E928B24B79380BD6BEA8BEDF42FD7145 /* PBXTargetDependency */,
 			);
 			name = "Pods-JITelephoneInputTextField_Example";
 			productName = "Pods-JITelephoneInputTextField_Example";
@@ -281,12 +278,12 @@
 		};
 		27A6EC2EAA26FBFC9838E87485BB1F79 /* JITelephoneInputTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5BC5AF0D47EECAD9235FEE010CFB32F /* Build configuration list for PBXNativeTarget "JITelephoneInputTextField" */;
+			buildConfigurationList = 5109ABCC7CF8523A9055D5A33A9C5375 /* Build configuration list for PBXNativeTarget "JITelephoneInputTextField" */;
 			buildPhases = (
-				58F68769791E8FA9A547D0BFD8E69747 /* Headers */,
-				96EB5D633A3E5EBB2A5EC372E15936C0 /* Sources */,
-				8D65FF6F49E00318D2CD7E9F801F460D /* Frameworks */,
-				85C4803CF55855C67DCF8E298D24AE3D /* Resources */,
+				93B2427B6759D401CE756FC2E88D0B42 /* Headers */,
+				91195C849F9DF312F67320CE0B70C716 /* Sources */,
+				4EA4371311723A028C27C6B3AD5A0251 /* Frameworks */,
+				C2561776BFB5472302D31DF0C9E0A6B5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -309,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DCC4E8CE12F1351F9B47B73C967FE8C6 /* PBXTargetDependency */,
+				008208CDB0C6784DC2C748D4817131BD /* PBXTargetDependency */,
 			);
 			name = "Pods-JITelephoneInputTextField_Tests";
 			productName = "Pods-JITelephoneInputTextField_Tests";
@@ -353,7 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85C4803CF55855C67DCF8E298D24AE3D /* Resources */ = {
+		C2561776BFB5472302D31DF0C9E0A6B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,13 +375,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96EB5D633A3E5EBB2A5EC372E15936C0 /* Sources */ = {
+		91195C849F9DF312F67320CE0B70C716 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EC5F6D24C4EEF94CEEB3B340784107D /* JITelephoneInputTextField-dummy.m in Sources */,
-				D018F523CD934A02FABA6EC4E26E2653 /* JITelephoneInputTextField.m in Sources */,
-				DA5C8D1D765A34FAE0AAF70C4534721B /* ReplaceMe.m in Sources */,
+				25D08CC483FC104509F200AA738EE7A6 /* JITelephoneInputTextField-dummy.m in Sources */,
+				433362432460A4C24E59ABFB0558A846 /* JITelephoneInputTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,52 +395,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D802530E631DBB9EA02AB4521C54822C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JITelephoneInputTextField;
-			target = 27A6EC2EAA26FBFC9838E87485BB1F79 /* JITelephoneInputTextField */;
-			targetProxy = 973E8F861EB8CDAE1427E63A9D66F419 /* PBXContainerItemProxy */;
-		};
-		DCC4E8CE12F1351F9B47B73C967FE8C6 /* PBXTargetDependency */ = {
+		008208CDB0C6784DC2C748D4817131BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JITelephoneInputTextField_Example";
 			target = 0DE17C9696FABEF61CF9080360683057 /* Pods-JITelephoneInputTextField_Example */;
-			targetProxy = ED735A56C7E3E514C9A36B07C3E2BBAD /* PBXContainerItemProxy */;
+			targetProxy = 62AB6EE9DC3E81999B355938E0892A55 /* PBXContainerItemProxy */;
+		};
+		E928B24B79380BD6BEA8BEDF42FD7145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JITelephoneInputTextField;
+			target = 27A6EC2EAA26FBFC9838E87485BB1F79 /* JITelephoneInputTextField */;
+			targetProxy = 238D30584CECF8F42C5A11CF3BC0AC3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		004456B244C5869508A714893E6721B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 168FE0F87C815C5740A3584AADD9BFA5 /* JITelephoneInputTextField.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JITelephoneInputTextField/JITelephoneInputTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JITelephoneInputTextField/JITelephoneInputTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JITelephoneInputTextField/JITelephoneInputTextField.modulemap";
-				PRODUCT_MODULE_NAME = JITelephoneInputTextField;
-				PRODUCT_NAME = JITelephoneInputTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1BABE8C4B139C0BB80657C23F27E2E28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C43C0CEEE235AC7BD6F463A8B0C688D /* Pods-JITelephoneInputTextField_Example.debug.xcconfig */;
@@ -609,6 +574,37 @@
 			};
 			name = Release;
 		};
+		ABB08C6A68B13ADCF2637F36CC748C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF3BCCCE88B74742B5E43AE88150B7C /* JITelephoneInputTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JITelephoneInputTextField/JITelephoneInputTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JITelephoneInputTextField/JITelephoneInputTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JITelephoneInputTextField/JITelephoneInputTextField.modulemap";
+				PRODUCT_MODULE_NAME = JITelephoneInputTextField;
+				PRODUCT_NAME = JITelephoneInputTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C92EEE7AAB5538AC4EE8CB9C2E0389ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FE8BE72E7FCE9B2DFA58AECAE07ABB1 /* Pods-JITelephoneInputTextField_Tests.debug.xcconfig */;
@@ -703,9 +699,9 @@
 			};
 			name = Release;
 		};
-		F7AB313E17ADD78FE35F1022EB063824 /* Debug */ = {
+		F1556FF32E8CA37219A67A96EE21645D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74FC14E38CA4EAD1B9CF2B203E9C81AB /* JITelephoneInputTextField.debug.xcconfig */;
+			baseConfigurationReference = BCEC5EA4A188F4D9967FD0AC013C032D /* JITelephoneInputTextField.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -745,6 +741,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5109ABCC7CF8523A9055D5A33A9C5375 /* Build configuration list for PBXNativeTarget "JITelephoneInputTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1556FF32E8CA37219A67A96EE21645D /* Debug */,
+				ABB08C6A68B13ADCF2637F36CC748C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		53B323CE00649D9CA064491976C8A298 /* Build configuration list for PBXNativeTarget "Pods-JITelephoneInputTextField_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -759,15 +764,6 @@
 			buildConfigurations = (
 				1BABE8C4B139C0BB80657C23F27E2E28 /* Debug */,
 				9FFCDF146FFDBA00F236E36BBB8FB5C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5BC5AF0D47EECAD9235FEE010CFB32F /* Build configuration list for PBXNativeTarget "JITelephoneInputTextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7AB313E17ADD78FE35F1022EB063824 /* Debug */,
-				004456B244C5869508A714893E6721B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
